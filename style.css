@@ -6,6 +6,27 @@ html,body{
   font-family: "Poppins",sans-serif;
   color:#222;
 }
+.carousel-indicators{
+  opacity: 0%;
+}
+.circular--square {
+  border-radius: 50%;
+  width:200px;
+  height:200px;
+  margin-top: -150px;
+  object-fit:cover;
+  position:absolute;
+  margin-left: 40%;
+  opacity: 100%;
+  border-style:solid;
+  border-width: 5px;
+  border-color: #E9ECEF;
+
+}
+
+img .circular--square{
+  size: 3rem;
+}
 .getit{
   background-color:rgb(0,0,0);opacity:0.8; 
   width:100%;
@@ -34,8 +55,6 @@ html,body{
 .jumbotron{
   border-radius: 0;
 }
-
-
 
 .welcome{
   padding-top: 2rem;
